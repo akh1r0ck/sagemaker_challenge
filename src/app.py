@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 from pydantic import BaseModel
 from scipy.special import softmax
-from simpletransformers.classification import ClassificationModel, ClassificationArgs
+from simpletransformers.classification import ClassificationModel
 
 app = FastAPI()
 
