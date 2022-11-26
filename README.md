@@ -20,7 +20,30 @@ Amazon SageMakerを試すための文章分類APIです
 
 ```
 Python 3.8.15
+conda 22.9.0
 ```
+
+セットアップコマンド
+
+```bash
+$ conda create -n st python=3.8.15
+$ git clone https://github.com/akh1r0ck/sagemaker_challenge.git
+$ cd sagemaker_challenge
+$ pip install -r requirements.txt
+```
+
+<details><summary>ライブラリの個別インストール</summary>
+
+```bash
+$ pip install torch --extra-index-url https://download.pytorch.org/whl/cpu
+$ pip install simpletransformers
+$ pip install scipy
+$ pip install fastapi uvicorn pydantic boto3
+```
+
+</details>
+
+主要なライブラリはこの通りです．
 
 | Library | Version |
 | --- | --- |
@@ -35,21 +58,6 @@ Python 3.8.15
 | AWS | - |
 | boto3 | 1.26.16 |
 
-```bash
-$ conda create -n st python=3.8.15
-$ pip install -r requirements.txt
-```
-
-<details><summary>個別インストール</summary>
-
-```bash
-$ pip install torch --extra-index-url https://download.pytorch.org/whl/cpu
-$ pip install simpletransformers
-$ pip install scipy
-$ pip install fastapi uvicorn pydantic boto3
-```
-
-</details>
 
 ## 実行手順
 
