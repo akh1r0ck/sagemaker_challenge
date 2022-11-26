@@ -2,6 +2,10 @@
   <img src="./docs/assets/icon.png" width="800"/>
 </div>
 
+![GitHub](https://img.shields.io/github/license/akh1r0ck/sagemaker_challenge)
+![python](https://img.shields.io/badge/python-3.8.15-blue)
+![conda](https://img.shields.io/badge/conda-22.9.0-brightgreen)
+
 
 
 Amazon SageMakerを試すための文章分類APIです
@@ -94,7 +98,7 @@ $ pip install fastapi uvicorn pydantic boto3
         | --- | --- | --- | --- | --- |
         | メモリサイズ | 1 | 3 | 6 | 3 |
         | 最大同時実行数 | 20 | 1 | 20 | 10 |
-        
+
         ※最大は6，20だが制限は3，10であることにも注意
 1. SageMaker > 推論 > エンドポイント > エンドポイントの作成
     1. エンドポイント名：適当に入力
