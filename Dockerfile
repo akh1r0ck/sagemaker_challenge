@@ -12,6 +12,5 @@ RUN pip install simpletransformers
 WORKDIR ${WORKINGDIR}
 RUN mkdir -p ${WORKINGDIR}
 COPY src/app.py ${WORKINGDIR}
-COPY src/best_model/ ${WORKINGDIR}best_model/
 
 ENTRYPOINT [ "/usr/local/bin/python", "app.py"]
