@@ -22,15 +22,15 @@ Python 3.8.15
 
 | Library | Version |
 | --- | --- |
-| > | Core |
+| Core | - |
 | torch | 1.13.0 |
 | simpletransformers | 0.63.9 |
 | scipy | 1.9.3 |
-| > | API |
+| API | - |
 | fastapi | 0.87.0 |
 | uvicorn | 0.20.0 |
 | pydantic | 1.10.2 |
-| > | AWS |
+| AWS | - |
 | boto3 | 1.26.16 |
 
 AWS上の操作
