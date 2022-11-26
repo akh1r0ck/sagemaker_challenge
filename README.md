@@ -56,9 +56,11 @@ $ pip install fastapi uvicorn pydantic boto3
 ざっくり処理内容はこの通りです．
 
 1. terminalでAWSのアカウントを設定
-1. DockerImageをECRにプッシュ
+1. DockerImageをECR※にプッシュ
 1. SageMakerでエンドポイント作成
 1. ローカルで呼び出す
+
+※ECR：Elastic Container Registry
 
 ### AWS側（上記手順1〜3）
 
