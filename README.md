@@ -2,9 +2,9 @@
   <img src="./docs/assets/icon.png" width="800"/>
 </div>
 
-![GitHub](https://img.shields.io/github/license/akh1r0ck/sagemaker_challenge)
-![python](https://img.shields.io/badge/python-3.8.15-blue)
-![conda](https://img.shields.io/badge/conda-22.9.0-brightgreen)
+[![GitHub](https://img.shields.io/github/license/akh1r0ck/sagemaker_challenge)](https://github.com/akh1r0ck/sagemaker_challenge/blob/main/LICENSE)
+[![python](https://img.shields.io/badge/python-3.8.15-blue)]()
+[![conda](https://img.shields.io/badge/conda-22.9.0-brightgreen)]()
 
 
 
