@@ -51,8 +51,16 @@ $ pip install fastapi uvicorn pydantic boto3
 
 </details>
 
+## 実行手順
 
-## AWS
+ざっくり処理内容はこの通りです．
+
+1. terminalでAWSのアカウントを設定
+1. DockerImageをECRにプッシュ
+1. SageMakerでエンドポイント作成
+1. ローカルで呼び出す
+
+### AWS側（上記手順1〜3）
 
 1. アカウントアイコン > セキュリティ認証情報(IAM) > アクセスキー > 新しいアクセスキーの作成
 1. AWS CLI > AWS Access Key IDとAWS Secret Access Key
@@ -62,3 +70,7 @@ $ pip install fastapi uvicorn pydantic boto3
 1. SageMaker > 推論 > エンドポイント設定 > エンドポイント設定の作成
 1. SageMaker > 推論 > エンドポイント > エンドポイントの作成
 
+### ローカル（上記手順4）
+
+1. test_boto3.py > 作成したエンドポイントを呼び出すように書き換え
+1. test_boto3.pyを実行
