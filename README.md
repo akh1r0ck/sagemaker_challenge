@@ -18,7 +18,9 @@ Amazon SageMakerを試すための文章分類APIです
 
 ## 実行環境
 
+```
 Python 3.8.15
+```
 
 | Library | Version |
 | --- | --- |
@@ -49,10 +51,12 @@ $ pip install fastapi uvicorn pydantic boto3
 </details>
 
 
-## AWS上の操作
+## AWS
 
+1. アカウントアイコン > セキュリティ認証情報(IAM) > アクセスキー > 新しいアクセスキーの作成
+1. AWS CLI > AWS Access Key IDとAWS Secret Access Key
 1. ECR > リポジトリ > リポジトリを作成
-1. ECR > リポジトリ > リポジトリを選択 > プッシュコマンとの表示
+1. ECR > リポジトリ > リポジトリを選択 > プッシュコマンドの表示
 1. SageMaker > 推論 > モデル > モデルの作成
 1. SageMaker > 推論 > エンドポイント設定 > エンドポイント設定の作成
 1. SageMaker > 推論 > エンドポイント > エンドポイントの作成
