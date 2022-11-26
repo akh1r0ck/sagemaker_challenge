@@ -105,5 +105,6 @@ $ pip install fastapi uvicorn pydantic boto3
 
 ### ローカル（上記手順4）
 
-1. test_boto3.py > 作成したエンドポイントを呼び出すように書き換え
+1. test_boto3.py > 作成したエンドポイントを呼び出すように書き換え  
+    `endpoint_name = "eeeendpoint”`を作成したエンドポイントの名前に変える
 1. test_boto3.pyを実行
