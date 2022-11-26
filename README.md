@@ -36,6 +36,7 @@ Python 3.8.15
 | boto3 | 1.26.16 |
 
 ```bash
+$ conda create -n st python=3.8.15
 $ pip install -r requirements.txt
 ```
 
