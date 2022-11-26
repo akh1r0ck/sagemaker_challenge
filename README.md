@@ -1,4 +1,6 @@
-# sagemaker_challenge
+<div align="center">
+  <img src="./docs/assets/icon.png" width="800"/>
+</div>
 
 Amazon SageMakerを試すための文章分類APIです
 
