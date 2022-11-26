@@ -2,7 +2,7 @@
 
 Amazon SageMakerを試すための文章分類APIです
 
-基本構成
+## ディレクトリ基本構成
 
 <pre>
 .
@@ -16,7 +16,7 @@ Amazon SageMakerを試すための文章分類APIです
 - src/app.py：API本体
 - test_boto3.py：エンドポイントを叩くテストプログラム
 
-ライブラリ
+## 実行環境
 
 Python 3.8.15
 
@@ -33,7 +33,23 @@ Python 3.8.15
 | AWS | - |
 | boto3 | 1.26.16 |
 
-AWS上の操作
+```bash
+$ pip install -r requirements.txt
+```
+
+<details><summary>個別インストール</summary>
+
+```bash
+$ pip install torch --extra-index-url https://download.pytorch.org/whl/cpu
+$ pip install simpletransformers
+$ pip install scipy
+$ pip install fastapi uvicorn pydantic boto3
+```
+
+</details>
+
+
+## AWS上の操作
 
 1. ECR > リポジトリ > リポジトリを作成
 1. ECR > リポジトリ > リポジトリを選択 > プッシュコマンとの表示
