@@ -48,7 +48,8 @@ $ pip install -r requirements.txt
 $ pip install torch --extra-index-url https://download.pytorch.org/whl/cpu
 $ pip install simpletransformers
 $ pip install scipy
-$ pip install fastapi uvicorn pydantic boto3
+$ pip install fastapi uvicorn pydantic
+$ pip install boto3
 ```
 
 </details>
