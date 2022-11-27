@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/conda-22.9.0-brightgreen.svg">
 </p>
 
-Amazon SageMakerを試すための文章分類APIです
 
 ## ディレクトリ基本構成
 
@@ -96,12 +95,12 @@ $ pip install fastapi uvicorn pydantic boto3
     2. エンドポイントのタイプ：サーバーレスを選択
     3. モデルの追加：作成したモデルを選択
     4. 本番稼働用バリアントの設定がデフォルトだと動かないので アクション > 編集 で変更
-        | parameter | default | changed | maximum | limitation |
-        | --- | --- | --- | --- | --- |
-        | メモリサイズ | 1 | 3 | 6 | 3 |
-        | 最大同時実行数 | 20 | 1 | 20 | 10 |
+        | parameter | default | changed | maximum |
+        | --- | --- | --- | --- |
+        | メモリサイズ | 1 | 3 | 6 |
+        | 最大同時実行数 | 20 | 1 | 20 |
 
-        ※最大は6，20だが制限は3，10であることにも注意
+        最大はそれぞれ6，20になっています．今回は3，1に設定します．
 1. SageMaker > 推論 > エンドポイント > エンドポイントの作成
     1. エンドポイント名：適当に入力
     1. エンドポイント設定のアタッチ
