@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/conda-22.9.0-brightgreen.svg">
 </p>
 
+Amazon SageMakerを試すための文章分類APIです
 
 ## ディレクトリ基本構成
 
@@ -67,6 +68,7 @@ $ pip install fastapi uvicorn pydantic boto3
 | AWS | - |
 | boto3 | 1.26.16 |
 
+※Coreの3つとAPIの3つはAPIのローカルデバッグ用です．APIのローカルデバッグをしない場合はboto3だけインストールすれば問題ありません．
 
 ## 実行手順
 
